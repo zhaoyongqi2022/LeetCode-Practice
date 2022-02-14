@@ -23,12 +23,12 @@ void backtracking(int n, int k, int startIndex) {
 	}
 }
 
-int main()
-{
-	int n = 4;
-	int k = 2;
-	int startIndex = 0;
-	backtracking(n, k, startIndex);
-	system("pause");
-	return 0;
-}
+//int main()
+//{
+//	int n = 4;
+//	int k = 2;
+//	int startIndex = 0;
+//	backtracking(n, k, startIndex);
+//	system("pause");
+//	return 0;
+//}
