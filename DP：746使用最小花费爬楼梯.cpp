@@ -13,7 +13,7 @@ int minCostClimbingStairs(vector<int>& cost) {
     dp[0] = cost[0];
     dp[1] = cost[1];
     for (int i = 2; i < costLength; i++) {
-        dp[i] = min(dp[i - 1], dp[i - 2])+cost[i];
+        dp[i] = min(dp[i - 1], dp[i - 2])+cost[i];//这里的递推公式还需要多考虑
     }
     return min(dp[costLength - 1], dp[costLength - 2]);//这里并没有直接返回最后一个dp元素而是比较了最后两个值
 }
