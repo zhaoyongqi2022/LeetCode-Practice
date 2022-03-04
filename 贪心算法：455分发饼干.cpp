@@ -41,19 +41,20 @@ int cookiesDistribution(vector<int>& g, vector<int>& s) {
 			index--;
 		}
 	}
-
+	//在方法2中，先遍历了孩子，内圈遍历饼干，每次满足条件，饼干-1，这样更简单。
+	//技巧：遍历饼干并没有再另起一个for循环，而是直接采用自减的方式，这是常用的技巧
 	return count;
 }
 
 
 
-int main()
-{
-	vector<int> g = { 1, 2, 7, 10 };
-	vector<int> s = { 1,3,5,9, };
-	int result = cookiesDistribution(g, s);
-
-
-	system("pause");
-	return 0;
-}
+//int main()
+//{
+//	vector<int> g = { 1, 2, 7, 10 };
+//	vector<int> s = { 1,3,5,9, };
+//	int result = cookiesDistribution(g, s);
+//
+//
+//	system("pause");
+//	return 0;
+//}

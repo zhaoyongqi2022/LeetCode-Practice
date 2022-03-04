@@ -20,11 +20,11 @@ int fibNumbers(int n) {
 
 
 
-int main()
-{
-	int n = 10;
-	int result = fibNumbers(10);
-
-	system("pause");
-	return 0;
-}
+//int main()
+//{
+//	int n = 10;
+//	int result = fibNumbers(10);
+//
+//	system("pause");
+//	return 0;
+//}
